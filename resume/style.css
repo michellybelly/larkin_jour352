@@ -1,25 +1,42 @@
 
-html {
+body {
       font-family: 'Open Sans',sans-serif, Arial;
-      font-size: 1em;
-      font-weight: 400;
-      color: #444;
+
+}
+
+#container {
+width:100%;
+max-width:1200px;
+margin:0 auto;
+padding-bottom: 50px;
+
 }
 /* This is the font for the resume */
 
-#mytitle {
-      font-size: 2em;
-      color: #33485e;
-      text-transform: uppercase;
-      text-align: center;
-}
-/* Elements for my name */
-
-.myname {
-      font-size: 3.5em;
+#myname {
+      font-size: 3em;
       color:#33485e;
       text-transform: uppercase;
       text-align: center;
+      border-bottom: 1px solid #33485e;
+      width:60%;
+      min-width:300px;
+      margin: 0 auto;
+      width:70%;
+      min-width:300px;
+}
+/* Elements for my name */
+
+      #mytitle {
+            font-size: 1.5em;
+            color: #33485e;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
 }
 /* Elements for my title */
 
@@ -28,7 +45,11 @@ html {
       font-transform: uppercase;
       color: white;
       background-color: #33485e;
-      margin: -8px;
+      font-weight:400;
+      margin-top:20px;
+      margin-bottom:20px;
+      margin-right:0;
+      margin-left:0;
 }
 /* elements for section headers; shrinked margins for fun */
 
@@ -45,6 +66,10 @@ html {
 .time {
       font-size: 1em;
       font-style: italic;
+      margin-top: 3px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
 
 }
 /* Elements for duration at organizations  */
@@ -53,3 +78,49 @@ html {
       font-weight: bolder;
 }
 /* elements for making certain data stand out  */
+ul li{
+ font-size:1em;
+}
+/* elements for unordered list */
+.description {
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+
+}
+/*elements for description to paragraphs */
+
+.menu {
+  text-align: center;
+  padding: 0px;
+  margin:0 auto;
+
+}
+/* elements for menu for contact info */
+
+.degrees {
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+
+}
+/* elements for degree info */
+
+.do {
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+/* elements for skills i do */
+
+.top {
+  width:60%;
+  min-width: 300px;
+  margin:0 auto;
+  margin-bottom: 30px;
+
+
+}
