@@ -1,0 +1,78 @@
+
+<style>
+
+/*styling for my midterm! */
+
+#container {
+        Margin: 0 auto;
+        width: 900px;
+}
+
+#masthead {
+
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+      color: black;
+      height: 100%;
+      margin: 0;
+      font-size: 58px;
+
+}
+#newtitle {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+      color: brown;
+      height: 100%;
+      margin: 0;
+      font-size: 58px;
+}
+
+#byline {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+      color: brown;
+      height: 100%;
+      margin: 0;
+      font-size: 20px;
+
+}
+
+#subhead {
+  font-family: 'Nunito', sans-serif;
+  text-align: left;
+      color: brown;
+      height: 100%;
+      margin-left: auto;
+      font-size: 40px;
+
+}
+
+body {
+font-family: 'Helvetica',sans-serif, Arial;
+font-size:12px;
+background-color: black;
+
+}
+/*for my captions under my pics*/
+#caption {
+  font-family: 'Helvetica',sans-serif, Arial;
+      font-size: 12px;
+      text-align: center;
+}
+/*sizing for my pics provided by NY times */
+.images {
+display: block;
+margin-left:auto;
+margin-right: auto;
+
+}
+
+.quote {
+font-family:'Nunito', sans-serif;
+font-size: 30px;
+text-align: center;
+
+
+}
+
+</style>
