@@ -1,8 +1,4 @@
 
-body {
-      font-family: 'Open Sans',sans-serif, Arial;
-
-}
 
 #container {
 width:100%;
@@ -11,116 +7,111 @@ margin:0 auto;
 padding-bottom: 50px;
 
 }
-/* This is the font for the resume */
 
-#myname {
-      font-size: 3em;
-      color:#33485e;
-      text-transform: uppercase;
-      text-align: center;
-      border-bottom: 1px solid #33485e;
-      width:60%;
-      min-width:300px;
-      margin: 0 auto;
-      width:70%;
-      min-width:300px;
-}
-/* Elements for my name */
-
-      #mytitle {
-            font-size: 1.5em;
-            color: #33485e;
-            text-transform: uppercase;
-            text-align: center;
-            font-weight: 600;
-            margin-top: 20px;
-            margin-left: 0px;
-            margin-right: 0px;
-            margin-bottom: 0px;
-}
-/* Elements for my title */
-
-.SECTION {
-      font-size: 1.5em;
-      font-transform: uppercase;
-      color: white;
-      background-color: #33485e;
-      font-weight:400;
-      margin-top:20px;
-      margin-bottom:20px;
-      margin-right:0;
-      margin-left:0;
-}
-/* elements for section headers; shrinked margins for fun */
-
-.JOBtitle {
-      font-weight: 600;
-      font-size: 2em;
-}
-/* Elements for position */
-.org {
-      font-size: 1.5em;
-}
-/*  Elements for organization names */
-
-.time {
-      font-size: 1em;
-      font-style: italic;
-      margin-top: 3px;
-      margin-left: 0px;
-      margin-right: 0px;
-      margin-bottom: 0px;
+p {
+font-family: 'Noto Serif Display', serif;
+font-weight: 400;
+font-size: 16px;
 
 }
-/* Elements for duration at organizations  */
+.images {
+display: block;
+margin-left:auto;
+margin-right: auto;
+}
 
-.line {
-      font-weight: bolder;
-}
-/* elements for making certain data stand out  */
-ul li{
- font-size:1em;
-}
-/* elements for unordered list */
 .description {
-  margin-top: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 10px;
+  font-family: 'Noto Serif Display', serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.content {
+  background-color: #white;
+  color: black;
+  margin: 0 auto;
+}
+
+#top {
+  font-family: 'Vollkorn', serif;
+  color: black;
+  width: 100%;
+  padding-top: 10px;
+  text-align: left;
+  font-size: 16px;
+  background-color: #white;
+}
+
+a {
+  color: #4D3631;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4D3631;
+  transition: all 0.35s ease-in-out;
+}
+
+.mypaper {
+  font-family: 'Noto Serif Display', serif;
+  color:#A88983;
+  font-size: 30px;
+}
+
+
+
+#skills {
+  background-color: #4D3631 ;
+  color: #EBE5DB;
+}
+
+
+.organization {
+  font-weight: 500;
+  font-size: 1.5em;
+  font-family: 'Vollkorn', serif;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 1.0em;
+  font-style: italic;
+  font-family: 'Vollkorn', serif;
+}
+
+
+.subhead {
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-left: none;
+  color: #A88983;
+  text-align: left;
+  font-family:  'Noto Serif Display', serif;
+  letter-spacing: 1.5px;
+  font-size: 30px;
+}
+
+#nav-link {
+    color: white;
+   margin:0 auto;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+  font-family: 'Noto Serif Display', serif;
 
 }
-/*elements for description to paragraphs */
 
-.menu {
-  text-align: center;
-  padding: 0px;
-  margin:0 auto;
-
+.navbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #A88983;
 }
-/* elements for menu for contact info */
 
-.degrees {
-  margin-top: 5px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-
-}
-/* elements for degree info */
-
-.do {
-  margin-top: 5px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-}
-/* elements for skills i do */
-
-.top {
-  width:60%;
-  min-width: 300px;
-  margin:0 auto;
-  margin-bottom: 30px;
-
-
+#nav-container {
+padding-left: 10%;
 }
