@@ -1,5 +1,6 @@
 BODY {
   font-family: 'PT Serif', serif;
+  background-color: black;
 }
 
 
@@ -10,24 +11,13 @@ BODY {
 p{
   text-align:left;
   line-height:180%;
+  color: white;
 }
 
 a {
   color: red;
   font-family: helvetica;
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  color: black;
-}
-
-a:visited {
-  color: blue;
 }
 
 .navbar {
@@ -60,6 +50,7 @@ color: red;
   font-size:3em;
   font-family: 'Montserrat', sans-serif;
   font-weight:700;
+  border-top: dotted;
 }
 
 
@@ -68,6 +59,8 @@ color: red;
   text-transform:uppercase;
   margin-top:-10px;
   font-family: 'Montserrat', sans-serif;
+  border-bottom: dotted;
+
 
 }
 
@@ -126,9 +119,6 @@ color: red;
   text-transform:uppercase;
 }
 
-.red {
-  color:#f23030;
-}
 
 .bg-dark {
   background:#000 !important;
@@ -158,11 +148,11 @@ color: red;
 
 /*stop and refresh */
 .hero-hed{
-  padding-top:10px;
+  padding-top:20px;
   margin:0 auto;
   font-size:6em;
   font-family: 'Playfair Display', serif;
-  padding-bottom:10px; /*add way later */
+  padding-bottom:20px; /*add way later */
   color:#fff;
 }
 
@@ -170,7 +160,7 @@ color: red;
 
 .hero-sub {
   font-family: 'Montserrat', sans-serif;
-  font-size:.25em;
+  font-size:.4em;
 }
 
 
@@ -189,6 +179,8 @@ color: red;
   border-bottom:1px solid #000;
   margin-top:20px;
   margin-bottom:20px;
+  border-top: solid;
+  border-bottom: solid;
 }
 
 
@@ -197,9 +189,11 @@ color: red;
   font-family: 'Montserrat', sans-serif;
   font-weight:100;
   text-align:left;
-  color:#000;
-  border-top: 1px solid; 
+  color:#F23030;
 }
+
+}
+
 .chapter-head {
   font-size:1.25em;
 }
@@ -211,14 +205,12 @@ color: red;
 .hero-hed {
 font-size:1.5em;
 }
+
+}
+
 /* Media Queries */
 
 @media(max-width:550px) {
   p {
     padding-left:20px;
     padding-right:10px;
-  }
-
-
-
-}
