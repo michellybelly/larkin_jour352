@@ -1,6 +1,6 @@
 BODY {
   font-family: 'PT Serif', serif;
-  background-color: black;
+  background-color: white;
 }
 
 
@@ -11,7 +11,7 @@ BODY {
 p{
   text-align:left;
   line-height:180%;
-  color: white;
+  color: black;
 }
 
 a {
@@ -19,6 +19,19 @@ a {
   font-family: helvetica;
   text-decoration: none;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: blue;
+}
+
 
 .navbar {
     display: -webkit-box;
@@ -47,7 +60,7 @@ color: red;
 }
 
 .hed {
-  font-size:3em;
+  font-size:5em;
   font-family: 'Montserrat', sans-serif;
   font-weight:700;
   border-top: dotted;
@@ -98,7 +111,7 @@ color: red;
 }
 
 .footer {
-  background: #000;
+  background: white;
   height:100px;
   min-height: 100px;
   padding-top:25px;
@@ -107,7 +120,8 @@ color: red;
 
 .footer p {
   font-family: 'Montserrat', sans-serif;
-  color: #fff
+  color: red;
+  border-bottom: dotted;
 }
 
 /* Top hat */
@@ -141,18 +155,18 @@ color: red;
 .overlay {
   position: absolute; /*lock this in place */
   width:100%;
-  top: 20%;
+  top: 30%;
   background:#000; /* black */
   opacity:.7;
 }
 
 /*stop and refresh */
 .hero-hed{
-  padding-top:20px;
+  padding-top:40px;
   margin:0 auto;
-  font-size:6em;
+  font-size:10em;
   font-family: 'Playfair Display', serif;
-  padding-bottom:20px; /*add way later */
+  padding-bottom:40px; /*add way later */
   color:#fff;
 }
 
@@ -160,7 +174,7 @@ color: red;
 
 .hero-sub {
   font-family: 'Montserrat', sans-serif;
-  font-size:.4em;
+  font-size:.5em;
 }
 
 
@@ -198,15 +212,34 @@ color: red;
   font-size:1.25em;
 }
 
+.chapter-head-2 {
+  font-size:3em;
+  margin: auto;
+  text-align: center;
+}
+
 .hed {
-  font-size:2em;
+  font-size:3em;
 }
 
 .hero-hed {
 font-size:1.5em;
 }
 
+.statistics {
+border-top: solid;
+border-bottom: solid;
+border-right: solid;
+border-left: solid;
+
 }
+
+
+/* refresh but doesn't have separate font yet */
+
+
+
+
 
 /* Media Queries */
 
